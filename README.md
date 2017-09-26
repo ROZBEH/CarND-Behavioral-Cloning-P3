@@ -38,7 +38,7 @@ II. Data Preprocessing:
 <p align="center"><img src="examples/curv_1.jpg" width = "350" alt="Combined Image" />
 <img src="examples/curv_1_flip.jpg" width = "350" alt="Combined Image" />	</p>
 
-* Pixels above and below some height were cropped, because they are not about the road. So they make little difference in the final judgement.
+* Pixels above and below some height were cropped, because they are not about the road and they are just environment, tree, etc.  So they make little difference in the final judgement.
 * 20 percent of the data was used for validation phase.
 * The data was shuffled randomly to increase randomness.
 
