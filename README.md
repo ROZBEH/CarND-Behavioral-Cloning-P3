@@ -34,9 +34,12 @@ III. The architecture that was chosen is based on <a https://arxiv.org/pdf/1604.
 <p align="center"><img src="examples/cnn-architecture.png" width = "350" alt="Combined Image" >	</p>
 <br>
 Some more details about the implementation:
+<br>
 * The architecture is exactly the same as the above figure except dropout out layers that were being used after the first and second fully connected layers. 
+* The architecure worked pretty well and I have not spend that much time figuring it out.
+* Since the testing environment was the same as the training one, number of epoch was chosen 
 </br>
-
+</br>
 </br>
 
 
