@@ -21,6 +21,9 @@ I. The first step was driving the car around the track and recording video files
 <br>The following shows driving next to the edge of the curve and bringing the car back to the center of the road</br>
 <p align="center"><img src="examples/curv_1.jpg" width = "350" alt="Combined Image" />
 <img src="examples/curv_1_2.jpeg" width = "350" alt="Combined Image" />	</p>
+
+<br>Here is an example of driving at the center of the road smoothly. </br>
+<p align="center"><img src="examples/center_drive.jpg" width = "350" alt="Combined Image" /></p>
 </br>
 
 <br>
