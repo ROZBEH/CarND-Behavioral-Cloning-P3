@@ -43,6 +43,7 @@ III. The architecture that was chosen is based on <a href = "https://arxiv.org/p
 <p align="center"><img src="examples/cnn-architecture.png" width = "350" alt="Combined Image" >	</p>
 
 <br>
+
 Some more details about the implementation:
 * The architecture is exactly the same as the above figure except dropout out layers that were being used after the first and second fully connected layers. 
 * The architecure worked pretty well and I have not spend that much time figuring it out.
