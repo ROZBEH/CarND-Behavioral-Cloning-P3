@@ -33,7 +33,7 @@ II. Data Preprocessing:
 -0.5 to +0.5. Line 68 in model.py
 * Left and right camera images as well as center camera images are added to the training set. The steering angle that we collected during the training phase is just for the center camera, in order to make it also work for the left and right camera we add and subtract some constant(0.2) from it. Also, in order to make the model robust to both right turn and left turn, we augment the data(as shown below) by adding the flip of each image to the training set and also multiply its corresponding steering wheel angle by -1. Lines 45-58 in model.py
 <p align="center"><img src="examples/curv_1.jpg" width = "350" alt="Combined Image" />
-<img src="examples/curv_1_flip.jpeg" width = "350" alt="Combined Image" />	</p>
+<img src="examples/curv_1_flip.jpg" width = "350" alt="Combined Image" />	</p>
 
 * Pixels above and below some range were cropped, because they are not about the road. So they make little difference in the final judgement.
 * 20 percent of the data was used for validation phase.
