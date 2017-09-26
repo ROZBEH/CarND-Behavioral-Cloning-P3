@@ -32,10 +32,11 @@ II. Data Preprocessing:
 * Raw pixel values have lots of variations from 0 to 255, in order to make the model less sensitive to these variation we normalized each pixel value by dividing it by 255 and subtracting it from 0.5 so that all values would be in the range of 
 -0.5 to +0.5. Line 68 in model.py
 * Left and right camera images as well as center camera images are added to the training set. The steering angle that we collected during the training phase is just for the center camera, in order to make it also work for the left and right camera we add and subtract some constant(0.2) from it. Also, in order to make the model robust to both right turn and left turn, we augment the data by adding the flip of each image to the training set and also multiply its corresponding steering wheel angle by -1. Lines 45-58 in model.py
-* 
+
 </br>
 
 <br>
+
 III. The architecture that was chosen is based on <a href = "https://arxiv.org/pdf/1604.07316.pdf">this</a> article by NVIDIA's self driving car group. The overall model block diagram is shown in the following figure.
 * hello
 * yeah
