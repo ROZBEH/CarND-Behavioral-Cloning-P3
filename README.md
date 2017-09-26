@@ -37,6 +37,7 @@ II. Data Preprocessing:
 
 * Pixels above and below some range were cropped, because they are not about the road. So they make little difference in the final judgement.
 * 20 percent of the data was used for validation phase.
+* The data was shuffled randomly to increase randomness.
 
 </br>
 
@@ -60,7 +61,7 @@ Some more details about the implementation:
 * Since the testing environment was the same as the training one, number of epoch was chosen .
 * Lines 67-85 in model.py are for the model implementation in Keras.
 * Network was trained with two epochs. Whenever I used more than two epochs, overfitting occurred.
-* Adam Optimizer was used to minimize the output loss.
+* Adam Optimizer was used to minimize the output loss and there was no need to set the learning rate manually.
 * Mean Square Error(MSE) was used as a measurement of the systems loss.
 
 
