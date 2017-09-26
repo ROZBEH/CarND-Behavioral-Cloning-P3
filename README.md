@@ -19,7 +19,8 @@ I. The first step was driving the car around the track and recording video files
 * After doing the first two cases, I decided to focuse more on the curves and trying to drive very badly around the curves and bringing the car back to the road so that there will be lots of these. I did this for 2 and a half times around the track. At the end I drove once around the curve smoothly. One thing that I noticed is that in order for the car to drive successfully around the track in autonomous mode, it should know how to stay away from the lines on the edge of the road. This way even if the car does not drive smoothly, it can at least survive around the sharp curves to the center of the road. At the end in order to make the driving experience more smooth in the autonomous mode, I drove once very smoothly around the track. I didn't drive smoothly around the track more than once because whenever I did more than once the car would forget about the curves and edges of the road and reacts slowly to sharp turns.
 
 <br>The following shows driving next to the edge of the curve and bringing the car back to the center of the road</br>
-<p align="center"><img src="examples/curv_1.jpg" width = "350" alt="Combined Image" >	</p>
+<p align="left"><img src="examples/curv_1.jpg" width = "350" alt="Combined Image" />	</p>
+<p align="right"><img src="examples/curv_1_2.jpeg" width = "350" alt="Combined Image" />	</p>
 </br>
 
 <br>
