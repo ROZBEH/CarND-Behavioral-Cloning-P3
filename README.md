@@ -31,6 +31,7 @@ II. Data Preprocessing:
 <br>
 III. The architecture that was chosen is based on <a href = "https://arxiv.org/pdf/1604.07316.pdf">this</a> article by NVIDIA's self driving car group. The overall model block diagram is shown in the following figure.
 
+<p align="center"><img src="examples/cnn-architecture.png" width = "350" alt="Combined Image" >	</p>
 
 <br>
 Some more details about the implementation:
@@ -39,5 +40,6 @@ Some more details about the implementation:
 * Since the testing environment was the same as the training one, number of epoch was chosen 
 </br>
 </br>
+<br></br>
 
 
