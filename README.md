@@ -61,7 +61,7 @@ More details of the system architecture is provided in the following figure.
 Some more details about the implementation:
 * The architecture is exactly the same as the above figure except dropout out layers that were utilized after the first and second fully connected layers. 
 * The architecure worked pretty well and I have not spend that much time figuring it out.
-* Since testing environment was the same as the training one, number of epoch was chosen .
+* Since testing environment was the same as the training one, number of epoch was chosen to be 2 in order to prevent overfitting.
 * Lines 67-85 in model.py are for the model implementation in Keras.
 * Network was trained with two epochs. Whenever I used more than two epochs, overfitting occurred.
 * Adam Optimizer was used to minimize the output loss and there was no need to set the learning rate manually.
