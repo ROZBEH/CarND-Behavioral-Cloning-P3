@@ -37,7 +37,8 @@ III. The architecture that was chosen is based on <a href = "https://arxiv.org/p
 Some more details about the implementation:
 * The architecture is exactly the same as the above figure except dropout out layers that were being used after the first and second fully connected layers. 
 * The architecure worked pretty well and I have not spend that much time figuring it out.
-* Since the testing environment was the same as the training one, number of epoch was chosen 
+* Since the testing environment was the same as the training one, number of epoch was chosen .
+* Lines 67-85 in model.py are for the model implementation in Keras.
 </br>
 </br>
 <br></br>
