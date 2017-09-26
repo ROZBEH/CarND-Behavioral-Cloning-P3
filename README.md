@@ -44,7 +44,7 @@ III. The architecture that was chosen is based on <a href = "https://arxiv.org/p
 <br>
 
 More details of the system architecture is provided in the following figure.
-<p align="center"><img src="examples/Network.png" width = "350" alt="Combined Image" >	</p>
+<p align="center"><img src="examples/Network.png" width = "400" alt="Combined Image" >	</p>
 
 </br>
 
