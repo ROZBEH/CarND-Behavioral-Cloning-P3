@@ -31,8 +31,12 @@ I. The first step was driving the car around the track and recording video files
 II. Data Preprocessing: 
 * Raw pixel values have lots of variations from 0 to 255, in order to make the model less sensitive to these variation we normalized each pixel value by dividing it by 255 and subtracting it from 0.5 so that all values would be in the range of 
 -0.5 to +0.5. Line 68 in model.py
-* Left and right camera images as well as center camera images are added to the training set. The steering angle that we collected during the training phase is just for the center camera, in order to make it also work for the left and right camera we add and subtract some constant(0.2) from it. Also, in order to make the model robust to both right turn and left turn, we augment the data by adding the flip of each image to the training set and also multiply its corresponding steering wheel angle by -1. Lines 45-58 in model.py
-* Pixels above and bellow some range were cropped, because they are not about the road. So they make little difference in the final judgement.
+* Left and right camera images as well as center camera images are added to the training set. The steering angle that we collected during the training phase is just for the center camera, in order to make it also work for the left and right camera we add and subtract some constant(0.2) from it. Also, in order to make the model robust to both right turn and left turn, we augment the data(as shown below) by adding the flip of each image to the training set and also multiply its corresponding steering wheel angle by -1. Lines 45-58 in model.py
+<p align="center"><img src="examples/curv_1.jpg" width = "350" alt="Combined Image" />
+<img src="examples/curv_1_flip.jpeg" width = "350" alt="Combined Image" />	</p>
+
+* Pixels above and below some range were cropped, because they are not about the road. So they make little difference in the final judgement.
+* 20 percent of the data was used for validation phase.
 
 </br>
 
@@ -55,6 +59,11 @@ Some more details about the implementation:
 * The architecure worked pretty well and I have not spend that much time figuring it out.
 * Since the testing environment was the same as the training one, number of epoch was chosen .
 * Lines 67-85 in model.py are for the model implementation in Keras.
+* Network was trained with two epochs. Whenever I used more than two epochs, overfitting occurred.
+* Adam Optimizer was used to minimize the output loss.
+* Mean Square Error(MSE) was used as a measurement of the systems loss.
+
+
 </br>
 </br>
 <br></br>
