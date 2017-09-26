@@ -10,7 +10,8 @@ Pipeline
 ---
 
 *The pipeline along with the corresponding python codes will be described here.*
-Note: I have not included the training data in my submission, because my github repository has limited space.*
+
+*Note: I have not included the training data in my submission, because my github repository has limited space.*
 
 <br>
 
