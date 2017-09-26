@@ -38,8 +38,8 @@ Some more details about the implementation:
 * The architecture is exactly the same as the above figure except dropout out layers that were being used after the first and second fully connected layers. 
 * The architecure worked pretty well and I have not spend that much time figuring it out.
 * Since the testing environment was the same as the training one, number of epoch was chosen 
+<!-- </br>
 </br>
-</br>
-</br>
+</br> -->
 
 
