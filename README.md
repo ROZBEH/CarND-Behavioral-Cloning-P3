@@ -4,7 +4,8 @@
 
 Overview
 ---
-In this project a simulator has been provided where one can steer a car around a track for data collection and then use image data and steering angles to train a neural network and then use this model to drive the car autonomously around the track.
+In this project a simulator has been provided where one can steer a car around a track for data collection and then use image data and steering angles to train a neural network and then use this model to drive the car autonomously around the track.</br>
+Note: This project was done based on Keras 1.2.
 
 Pipeline
 ---
